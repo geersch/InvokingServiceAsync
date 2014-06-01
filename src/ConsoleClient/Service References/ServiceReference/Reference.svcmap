@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="51aa45b1-1b43-4626-97ca-90c05250b6a0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://localhost:8731/MathService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="cgeers.wordpress.com.wsdl" MetadataType="Wsdl" ID="06e59c88-697e-44ae-83bc-de4557175412" SourceId="1" SourceUrl="net.tcp://localhost:8731/MathService/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="d1b97044-193a-4721-85e0-d0a26bd89bc9" SourceId="1" SourceUrl="net.tcp://localhost:8731/MathService/mex" />
+    <MetadataFile FileName="cgeers.wordpress.com.xsd" MetadataType="Schema" ID="97885815-4bd3-4802-82e3-c612f1f3f99f" SourceId="1" SourceUrl="net.tcp://localhost:8731/MathService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="4d61ad3f-8875-4137-8951-7ce160fe35bf" SourceId="1" SourceUrl="net.tcp://localhost:8731/MathService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
